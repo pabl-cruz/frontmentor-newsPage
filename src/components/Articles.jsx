@@ -1,7 +1,7 @@
 import { ArticleCard } from "./ArticleCard";
 export function Articles() {
   return (
-    <section className="flex flex-row basis-full mt-20 gap-4">
+    <section className="flex flex-col md:flex-row basis-full mt-20 gap-4 mx-4 md:mx-0">
       <ArticleCard
         index="01"
         title="Reviving Retro PCs"

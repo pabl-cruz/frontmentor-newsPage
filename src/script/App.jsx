@@ -11,7 +11,7 @@ function App() {
       </header>
       <main className="container flex">
         <div className="flex-col">
-          <div className="flex flex-row gap-10 mb-8">
+          <div className="flex flex-col md:flex-row gap-10 mb-8">
             <FeaturedArticle />
             <NewNewsSidebar />
           </div>
