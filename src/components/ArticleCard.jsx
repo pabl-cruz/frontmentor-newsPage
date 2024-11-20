@@ -6,9 +6,11 @@ export function ArticleCard({ index, title, description, img }) {
       </div>
       <div className="basis-2/3">
         <span className="text-4xl font-bold text-red-200">{index}</span>
-        <h4 className="font-extrabold text-darkblue-500 text-xl py-2">
-          {title}
-        </h4>
+        <a href="#">
+          <h4 className="font-extrabold text-darkblue-500 active:text-red-200 text-xl py-2">
+            {title}
+          </h4>
+        </a>
         <p className="text-greyblue-400 leading-7">{description}</p>
       </div>
     </div>

@@ -18,13 +18,17 @@ function App() {
           <Articles />
         </div>
       </main>
-      <footer>
+      <footer className="mt-5">
         <div className="attribution">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
           </a>
-          . Coded by <a href="#">Your Name Here</a>.
+          . Coded by{" "}
+          <a href="https://www.frontendmentor.io/profile/pabl-cruz">
+            Pablo Cruz
+          </a>
+          .
         </div>
       </footer>
     </Fragment>

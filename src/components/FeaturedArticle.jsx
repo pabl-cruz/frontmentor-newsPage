@@ -25,7 +25,7 @@ export function FeaturedArticle() {
           </p>
           <a
             href="#"
-            className="font-extrabold tracking-widest text-darkblue-500 bg-red-200 py-4 px-8"
+            className="font-extrabold tracking-widest text-darkblue-500 bg-red-200 py-4 px-8 active:bg-darkblue-500 active:text-offwhite"
           >
             READ MORE
           </a>
