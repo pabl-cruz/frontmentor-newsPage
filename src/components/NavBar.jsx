@@ -14,11 +14,11 @@ export function NavBar() {
   return (
     <nav className="relative flex flex-row justify-between my-8 mx-4 md:mt-24 md:mb-16 md:mx-0">
       <div>
-        <img src="../src/assets/images/logo.svg" alt="logo" />
+        <img src="src/assets/images/logo.svg" alt="logo" />
       </div>
       <button onClick={toggleMenu}>
         <img
-          src="../src/assets/images/icon-menu.svg"
+          src="src/assets/images/icon-menu.svg"
           alt="icon menu"
           className="md:hidden"
         />
@@ -55,10 +55,7 @@ export function NavBar() {
         } w-2/3 z-50 md:hidden`}
       >
         <button onClick={toggleMenu} className="p-8 self-end">
-          <img
-            src="../src/assets/images/icon-menu-close.svg"
-            alt="close menu"
-          />
+          <img src="src/assets/images/icon-menu-close.svg" alt="close menu" />
         </button>
         <div className="flex flex-col text-darkblue-500 p-4">
           <a href="#" className="my-4 text-xl pl-4 hover:text-red-200">

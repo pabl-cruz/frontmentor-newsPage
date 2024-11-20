@@ -2,12 +2,12 @@ export function FeaturedArticle() {
   return (
     <section className="basis-2/3">
       <img
-        src="../src/assets/images/image-web-3-desktop.jpg"
+        src="src/assets/images/image-web-3-desktop.jpg"
         alt="web3"
         className="w-full hidden md:block"
       />
       <img
-        src="../src/assets/images/image-web-3-mobile.jpg"
+        src="src/assets/images/image-web-3-mobile.jpg"
         alt="web3-mobile"
         className="block px-4 w-full md:hidden"
       />
